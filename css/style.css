@@ -1,0 +1,85 @@
+/* Reset some basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #3b82f6;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #1e40af;
+  margin-bottom: 15px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+button.reveal-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button.reveal-btn:hover {
+  background-color: #2563eb;
+}
+
+.answer {
+  display: none;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e0f2fe;
+  border-left: 4px solid #3b82f6;
+  border-radius: 5px;
+}
